@@ -2,14 +2,16 @@
 # Manual edits may be lost in future updates.
 
 provider "terraform.releases.teleport.dev/gravitational/teleport" {
-  version     = "14.2.0"
-  constraints = "~> 14.0"
+  version     = "15.0.0"
+  constraints = "~> 15.0"
   hashes = [
-    "h1:5c/iMB1oaR3IcpBj8lXUKNY1eIhXJM/hz9qUvUYwaSM=",
-    "h1:MgVgcTFSh3HpaXppmhJ+pHbYJ7F7b5ytZDvMqBbZcL4=",
-    "h1:W48zthJjHrTVBAqGSJ8Aw4AI/aMsM85f9wnCTvU7h14=",
-    "zh:128e75ef1cf94ef1a2c543c2f9ff2850e71b5a561eb29a97906a1c3f1330bdf0",
-    "zh:be35304dc51ae01cc81a7c63fd7cc292e3fda2cae3f0dbb833fce43d93181514",
-    "zh:e7e7fdd59af680063c8c58c8ef236bf6b58288d7fbf980def1551969a94f7122",
+    "h1:+3rkEUEkP3UCShYO9owX6pWbmSQ4k7dVUOvUHGa7bzs=",
+    "h1:GHEkQlfbGiSEm/Pfdx8Ebi4KZvri2msyZfDCfc3O5Ko=",
+    "h1:RYkmc7Y2A7Tmt/DpO+VGYUsDZPk9O0RhMNncjwxZDws=",
+    "h1:gkehN3kSTYgR92HGNtA0eNLhp5ppWyFbJu6+6T7M0F8=",
+    "zh:4c741c9656b9901f26167df4c83adc40867d2901f14a14732f210315bce95180",
+    "zh:9d4b90903ef78f09aec0c507f2e320759bd967b39c9b7dd967a5ffe862b3cb16",
+    "zh:b4890426846a8871f87b18f643e1ef2ac41e888834e7a8f4a499879a34710eeb",
+    "zh:f90c1a1f8aeec7e522ddb6885b5c3c88ea0730f662b60ed8caec97699c9a1c19",
   ]
 }
